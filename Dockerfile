@@ -12,6 +12,9 @@ RUN echo "deb http://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.
 RUN apt-get update
 RUN apt-get install -y yarn
 
+# Install cypress dependencies
+RUN apt-get install xvfb libgtk-3-dev libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2
+
 # Install awscli
 RUN apt-get install -y python3 python-dev python-pip
 RUN pip install awscli
