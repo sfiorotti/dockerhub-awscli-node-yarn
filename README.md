@@ -1,8 +1,6 @@
 # dockerhub-awscli-node-yarn
 
 Docker Image
- - Node 8
- - Yarn
- - Python
- - pip
- - AWS cli
+ - FROM cypress/included:3.3.2
+ - INSTALL pip
+ - INSTALL AWS CLI

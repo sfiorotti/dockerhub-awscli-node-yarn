@@ -1,4 +1,4 @@
-FROM cypress/base:8.15.1
+FROM cypress/included:3.3.2
 
 MAINTAINER Sergio Fiorotti <sbfiorotti@gmail.com>
 
