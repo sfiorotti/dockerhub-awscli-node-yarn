@@ -1,6 +1,6 @@
 # dockerhub-awscli-node-yarn
 
 Docker Image
- - FROM cypress/browsers:chrome69
+ - FROM cypress/included:3.3.2
  - INSTALL pip
  - INSTALL AWS CLI

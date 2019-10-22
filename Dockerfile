@@ -1,6 +1,6 @@
 FROM cypress/included:3.3.2
 
-MAINTAINER Sergio Fiorotti <sbfiorotti@gmail.com>
+LABEL Sergio Fiorotti <sbfiorotti@gmail.com>
 
 RUN apt-get update
 
